@@ -35,7 +35,7 @@ fn main() -> Result<(), &'static str> {
                 .position(|p| p == &letter.to_ascii_lowercase())
                 .ok_or("is_abc suck")?;
             let char_encoded_index = {
-                if index + rot_val > 26 {
+                if index + rot_val >= 26 {
                     (index + rot_val) % 26
                 } else {
                     index + rot_val
