@@ -8,7 +8,7 @@ Did I exagerate a little bit?: Yes
 
 ## Steps
 ### Compiling
-> I'll assume you have rust installed in your system
+> I'll assume you have rust installed in your system<br>
 > If not, check out [rustup](https://rustup.rs)
 ```bash
 git clone https://github.com/S0raWasTaken/random_rusty_challenges.git
@@ -17,7 +17,7 @@ cargo build --release
 mv target/release/caesar_cypher .
 ```
 ### Using
-> Default value for rotation is 13
+> Default value for rotation is 13<br>
 Simple usage:
 ```bash
 ./caesar_cypher abcdefghijklmnopqrstuvwxyz
