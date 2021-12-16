@@ -1,4 +1,5 @@
 # NO_STD_MAP
+Challenge is: **`Making my own "TypeMap" without even touching the std lib`**<br>
 Actual crate name is soramap, but please ignore it...
 
 ## Using
