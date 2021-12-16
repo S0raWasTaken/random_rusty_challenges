@@ -49,6 +49,6 @@ fn main() {
 ```
 
 ### Final nerdy but dumb explanation
-Basically, key and value are both 2 different maps, each with the same size. <br>
+Basically, key and value are both 2 different vectors, each with the same size. <br>
 It makes it so when you search for Key in the vector, you end up getting the Value's index in the other vector.<br>
 Also, key is a `PartialEq`, meaning that I can actually try to match stuff as `k.eq(key)`
